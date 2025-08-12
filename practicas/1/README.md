@@ -1,7 +1,12 @@
 # Práctica 1: Uso de Git y de Github
 
+<<<<<<< HEAD
     Práctica creada: 2025.08.12
 	Entrega: 2025.08.19
+=======
+    Práctica creada: 20xx.xx.xx
+	Entrega: 20xx.xx.xx
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 Esta práctica busca que tengas las herramientas básicas mínimas para
 utilizar tanto Git como GitHub, y sirve como base para todas las
@@ -9,7 +14,11 @@ prácticas futuras.
 
 Te recuerdo que, para comprender el funcionamiento de Git y la forma
 de colaboración de GitHub, les dí una serie de ligas en la
+<<<<<<< HEAD
 [página principal del repositorio](https://github.com/unamfi/sistop-2026-1).
+=======
+[página principal del repositorio](https://github.com/unamfi/sistop-20xx-x).
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 ## 1. Tu cuenta de usuario
 
@@ -19,13 +28,21 @@ una, puedes (y te recomiendo) utilizar la ya existente.
 ## 2. Un *fork* del repositorio principal
 
 El repositorio principal desde el que estaremos trabajando es
+<<<<<<< HEAD
 <https://github.com/unamfi/sistop-2026-1>; lo primero que debes hacer
+=======
+<https://github.com/unamfi/sistop-20xx-x>; lo primero que debes hacer
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 es copiar el repositorio a tu espacio personal (hacer un "fork" — Una
 bifurcación, o una copia). Para esto, oprime el botón "Fork" en la
 parte superior derecha.
 
 Notarás que, en la parte superior izquierda, en vez de mostrar
+<<<<<<< HEAD
 `unamfi/sistop-2026-1`, ahora lo mostrará con tu nombre de usuario.
+=======
+`unamfi/sistop-20xx-x`, ahora lo mostrará con tu nombre de usuario.
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 ## 3. *Clona* el repositorio
 
@@ -49,12 +66,20 @@ interfaz gráfica, queda para tí el convertir las instrucciones en
 
 Si tu nombre de usuario es `fulano`, tendrás que hacer algo como:
 
+<<<<<<< HEAD
     $ git clone git@github.com:fulano/sistop-2026-1.git
+=======
+    $ git clone git@github.com:fulano/sistop-20xx-x.git
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 Ojo, en caso de que tengas algún problema haciéndolo de esta manera,
 también puedes intentar de la siguiente manera:
 
+<<<<<<< HEAD
     $ git clone https://github.com/fulano/sistop-2026-1
+=======
+    $ git clone https://github.com/fulano/sistop-20xx-x
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 La ventaja del primero es un poco mayor velocidad al realizar las
 operaciones y que puedes manejar *autenticación por llave pública*; es
@@ -71,7 +96,11 @@ repositorio a lo largo del cursado de la materia.
 Ahora, vamos a estar trabajando desde *dentro* de tu directorio
 *clonado*:
 
+<<<<<<< HEAD
     $ cd sistop-2026-1
+=======
+    $ cd sistop-20xx-x
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 ## 4. ¿Dónde vas a hacer las entregas?
 
@@ -139,8 +168,13 @@ Es probable que tengas que indicarle a Git tu nombre y correo, para
 dar *atribución* (recuerda que Git es en primerísimo lugar un sistema
 de *desarrollo colaborativo*):
 
+<<<<<<< HEAD
 	$ git config --global user.name "Fulano de Tal"
 	$ git config --global user.email fulano@tal.org
+=======
+    $ git config --global user.name "Fulano de Tal"
+	$ git config --global usre.email fulano@tal.org
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 ## 6. Agrega tu archivo a Git y envíalo al servidor
 
@@ -164,10 +198,17 @@ los *empujes* o *publiques* en el servidor:
 ¡Bien! Si vamos hasta aquí, lograste publicar tus cambios en
 GitHub. La práctica, sin embargo, no ha sido *entregada*: Yo aún no se
 nada al respecto. Si ves la página de tu repositorio en GitHub
+<<<<<<< HEAD
 (https://github.com/fulano/sistop-2026-1/ substituyendo, claro,
 `fulano` por tu nombre de usuario), verás que GitHub te notifica en el
 área central que estás *adelantado* al repositorio central: *This
 branch is 1 commit ahead of unamfi/sistop-2026-1*.
+=======
+(https://github.com/fulano/sistop-20xx-x/ substituyendo, claro,
+`fulano` por tu nombre de usuario), verás que GitHub te notifica en el
+área central que estás *adelantado* al repositorio central: *This
+branch is 1 commit ahead of unamfi/sistop-20xx-x*.
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 Como comentamos en clase, el uso que quiero que den a GitHub es
 similar al que le darían si estuvieran corrigiendo un defecto en un
@@ -195,7 +236,11 @@ instrucciones relevantes cuando haya nuevas prácticas, tareas o
 proyectos, te recomiendo indicarle que estarás siguiendo una *rama
 remota*. Por ejemplo, podrías llamarla de forma que me describa, `prof`:
 
+<<<<<<< HEAD
     $ git remote add --track main prof https://github.com/unamfi/sistop-2026-1
+=======
+    $ git remote add --track main prof git://github.com/unamfi/sistop-20xx-x
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 Esto significa, *agrega una fuente remota en la dirección mencionada,
 siguiendo la rama maestra, y dale localmente el nombre `prof`*. Puedes

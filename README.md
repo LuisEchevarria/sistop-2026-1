@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 # sistop-2026-1 • Sistemas Operativos #
+=======
+# sistop-20xx-x • Sistemas Operativos #
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 
 ¡Bienvenido!
 
 Este repositorio es el espacio de entrega de proyectos para la clase
 impartida por Gunnar Wolf de *Sistemas Operativos* de la Facultad de
+<<<<<<< HEAD
 Ingeniería de la UNAM, en el semestre *2026-1* (agosto a noviembre
 de 2025). El sitio Web de la materia, donde encontrarán listas,
+=======
+Ingeniería de la UNAM, en el semestre *20xx-x* (xxxxxxxxxx a xxxxxxxxx
+de 20xx). El sitio Web de la materia, donde encontrarán listas,
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
 calificaciones, presentaciones, temas y demás materiales es
 http://gwolf.sistop.org/ y el sitio desde donde pueden consultar y
 descargar el libro que emplearemos como referencia para el cursado es
@@ -81,8 +90,13 @@ por lo cual el peligro de censura no es mera fantasía.
       entre varios.
 4. Para todas las entregas, usa el esquema de nombre estandarizado que
    presentamos en la
+<<<<<<< HEAD
    [sección 4 de la práctica 1](https://github.com/unamfi/sistop-2026-1/tree/main/practicas/1/README.md):
 
+=======
+   [sección 4 de la práctica 1](https://github.com/unamfi/sistop-20xx-x/tree/main/practicas/1/README.md):
+   
+>>>>>>> 5c7b567 (Initialize abre-tarea-comp-planif)
        [tipo_entrega]/[numero]/[ApellidoNombre]/
 
     * Esto es, por ejemplo, si voy a entregar la primera práctica,
